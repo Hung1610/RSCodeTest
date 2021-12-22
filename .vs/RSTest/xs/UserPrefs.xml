@@ -1,17 +1,25 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{618D69A3-CAE8-4E24-86BE-CCB0F6EF2FC2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RSTestUnitTests/UserService_IsMatchShould.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RSTest/Entities/User.cs">
     <Files>
       <File FileName="RSTest/Program.cs" Line="10" Column="3" />
-      <File FileName="RSTest/Entities/Address.cs" Line="8" Column="10" />
-      <File FileName="RSTest/Entities/User.cs" Line="32" Column="1" />
-      <File FileName="RSTest/Utilities/Utility.cs" Line="30" Column="26" />
+      <File FileName="RSTest/Entities/Address.cs" Line="6" Column="16" />
+      <File FileName="RSTest/Entities/User.cs" Line="72" Column="1" />
+      <File FileName="RSTest/Utilities/Utility.cs" Line="15" Column="30" />
       <File FileName="RSTest/Services/UserService.cs" Line="14" Column="1" />
-      <File FileName="RSTestUnitTests/UserService_IsMatchShould.cs" Line="158" Column="31" />
+      <File FileName="RSTestUnitTests/UserService_IsMatchShould.cs" Line="127" Column="1" />
+      <File FileName="RSTest/Services/IUserMatcher.cs" Line="1" Column="1" />
+      <File FileName="RSTest/Utilities/Geography.cs" Line="12" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RSTest" expanded="True" selected="True" />
+          <Node name="RSTest" expanded="True">
+            <Node name="RSTest" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Utilities" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -19,22 +27,22 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="RSTest" expanded="True" selected="True" />
+          <Node name="RSTest" expanded="True">
+            <Node name="RSTestUnitTests" expanded="True">
+              <Node name="RSTestUnitTests" expanded="True">
+                <Node name="UserService_IsMatchShould" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.RSTestUnitTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.RSTest PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/heggman/Projects/RSTest/RSTestUnitTests/UserService_IsMatchShould.cs" relfile="RSTestUnitTests/UserService_IsMatchShould.cs" line="35" column="1" />
-      <Breakpoint file="/Users/heggman/Projects/RSTest/RSTest/Entities/User.cs" relfile="RSTest/Entities/User.cs" line="32" column="1" />
-      <Breakpoint file="/Users/heggman/Projects/RSTest/RSTest/Utilities/Utility.cs" relfile="RSTest/Utilities/Utility.cs" line="15" column="1" />
-      <Breakpoint file="/Users/heggman/Projects/RSTest/RSTest/Utilities/Utility.cs" relfile="RSTest/Utilities/Utility.cs" line="35" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
