@@ -1,0 +1,40 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{618D69A3-CAE8-4E24-86BE-CCB0F6EF2FC2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RSTestUnitTests/UserService_IsMatchShould.cs">
+    <Files>
+      <File FileName="RSTest/Program.cs" Line="10" Column="3" />
+      <File FileName="RSTest/Entities/Address.cs" Line="8" Column="10" />
+      <File FileName="RSTest/Entities/User.cs" Line="32" Column="1" />
+      <File FileName="RSTest/Utilities/Utility.cs" Line="30" Column="26" />
+      <File FileName="RSTest/Services/UserService.cs" Line="14" Column="1" />
+      <File FileName="RSTestUnitTests/UserService_IsMatchShould.cs" Line="158" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RSTest" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="RSTest" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RSTestUnitTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RSTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/heggman/Projects/RSTest/RSTestUnitTests/UserService_IsMatchShould.cs" relfile="RSTestUnitTests/UserService_IsMatchShould.cs" line="35" column="1" />
+      <Breakpoint file="/Users/heggman/Projects/RSTest/RSTest/Entities/User.cs" relfile="RSTest/Entities/User.cs" line="32" column="1" />
+      <Breakpoint file="/Users/heggman/Projects/RSTest/RSTest/Utilities/Utility.cs" relfile="RSTest/Utilities/Utility.cs" line="15" column="1" />
+      <Breakpoint file="/Users/heggman/Projects/RSTest/RSTest/Utilities/Utility.cs" relfile="RSTest/Utilities/Utility.cs" line="35" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
