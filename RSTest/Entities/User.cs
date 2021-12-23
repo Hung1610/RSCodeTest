@@ -1,4 +1,6 @@
-﻿namespace RSTest.Entities
+﻿using RSTest.Extensions;
+
+namespace RSTest.Entities
 {
     public class User
     {
@@ -40,17 +42,17 @@
         // Check for address criteria
         private bool IsUserMatchAddress(User user)
         {
-            string normalizedCurrentStreetName = Utilities.String.NormalizeString(this.Address.StreetAddress);
-            string normalizedCurrentState = Utilities.String.NormalizeString(this.Address.State);
-            string normalizedCurrentSuburb = Utilities.String.NormalizeString(this.Address.Suburb);
+            string normalizedCurrentStreetName = this.Address.StreetAddress.Standandize();
+            string normalizedCurrentState = this.Address.State.Standandize();
+            string normalizedCurrentSuburb = this.Address.Suburb.Standandize();
 
-            string normalizedStreetName = Utilities.String.NormalizeString(user.Address.StreetAddress);
-            string normalizedState = Utilities.String.NormalizeString(user.Address.State);
-            string normalizedSuburb = Utilities.String.NormalizeString(user.Address.Suburb);
+            string normalizedStreetName = user.Address.StreetAddress.Standandize();
+            string normalizedState = user.Address.State.Standandize();
+            string normalizedSuburb = user.Address.Suburb.Standandize();
 
             return normalizedCurrentState.Equals(normalizedState)
                 && normalizedCurrentStreetName.Equals(normalizedStreetName)
-                && normalizedSuburb.Equals(normalizedSuburb);
+                && normalizedCurrentSuburb.Equals(normalizedSuburb);
         }
 
         // Check if another user matches the referral code
@@ -64,7 +66,7 @@
 
             for (int i = 0; i <= this.ReferralCode.Length - 3; i++)
             {
-                var reversedSubstr = Utilities.String.Reverse(lowerCaseOtherReferral.Substring(i, 3));
+                var reversedSubstr = lowerCaseOtherReferral.Substring(i, 3).Reverse();
                 var correctedString = String.Format("{0}{1}{2}",
                     lowerCaseReferral.Substring(0, i),
                     reversedSubstr,
