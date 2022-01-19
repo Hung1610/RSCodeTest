@@ -21,12 +21,18 @@ namespace RSTest.Entities
         public string Name { get; set; }
         public string ReferralCode { get; set; }
 
-        //Check if user matches another
+        // Check if user matches another
         public bool IsMatch(User user) =>
+            IsUserMatchName(user) ||
             IsUserWithinDistance(user, 500.0m) ||
             IsUserMatchAddress(user) ||
-            user.Name.Trim().ToLower().Equals(this.Name.Trim().ToLower()) ||
             IsUserMatchReferral(user);
+
+        // Check if user name matches
+        private bool IsUserMatchName(User user)
+        {
+            return user.Name.Trim().ToLower().Equals(this.Name.Trim().ToLower());
+        }
 
         // Check for distance criteria
         private bool IsUserWithinDistance(User user, decimal distance)
@@ -68,9 +74,9 @@ namespace RSTest.Entities
             {
                 var reversedSubstr = lowerCaseOtherReferral.Substring(i, 3).Reverse();
                 var correctedString = String.Format("{0}{1}{2}",
-                    lowerCaseReferral.Substring(0, i),
+                    lowerCaseOtherReferral.Substring(0, i),
                     reversedSubstr,
-                    lowerCaseReferral.Substring(i + 3, lowerCaseReferral.Length - (i+3)));
+                    lowerCaseOtherReferral.Substring(i + 3, lowerCaseOtherReferral.Length - (i+3)));
 
                 if (lowerCaseReferral.Equals(correctedString))
                     return true;

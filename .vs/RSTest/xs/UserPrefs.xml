@@ -1,14 +1,12 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{618D69A3-CAE8-4E24-86BE-CCB0F6EF2FC2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RSTest/Entities/User.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RSTestUnitTests/UserService_IsMatchWithinDistanceShould.cs">
     <Files>
-      <File FileName="RSTest/Program.cs" Line="10" Column="3" />
-      <File FileName="RSTest/Entities/Address.cs" Line="6" Column="16" />
-      <File FileName="RSTest/Entities/User.cs" Line="72" Column="1" />
-      <File FileName="RSTest/Utilities/Utility.cs" Line="15" Column="30" />
-      <File FileName="RSTest/Services/UserService.cs" Line="14" Column="1" />
-      <File FileName="RSTestUnitTests/UserService_IsMatchShould.cs" Line="127" Column="1" />
-      <File FileName="RSTest/Services/IUserMatcher.cs" Line="1" Column="1" />
-      <File FileName="RSTest/Utilities/Geography.cs" Line="12" Column="10" />
+      <File FileName="RSTest/Entities/Address.cs" Line="17" Column="21" />
+      <File FileName="RSTest/Entities/User.cs" Line="35" Column="26" />
+      <File FileName="RSTest/Services/UserService.cs" Line="14" Column="28" />
+      <File FileName="RSTest/Extensions/StringExtensions.cs" Line="22" Column="52" />
+      <File FileName="RSTest/Utilities/Geography.cs" Line="46" Column="40" />
+      <File FileName="RSTestUnitTests/UserService_IsMatchWithinDistanceShould.cs" Line="53" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,23 +14,24 @@
           <Node name="RSTest" expanded="True">
             <Node name="RSTest" expanded="True">
               <Node name="Entities" expanded="True" />
+              <Node name="Extensions" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="Utilities" expanded="True" />
             </Node>
+            <Node name="RSTestUnitTests" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
+        <State>
+          <Value>userTest2</Value>
+          <Value>this.userTest1</Value>
+        </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="RSTest" expanded="True">
-            <Node name="RSTestUnitTests" expanded="True">
-              <Node name="RSTestUnitTests" expanded="True">
-                <Node name="UserService_IsMatchShould" expanded="True" />
-              </Node>
-            </Node>
+          <Node name="RSTest" expanded="True" selected="True">
+            <Node name="RSTestUnitTests" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -36,7 +36,6 @@ namespace RSTest.Utilities
             return 1609.34m * (decimal)dist;
         }
 
-
         // Get random coordinates within provided radius from origin point. Output is tuple of decimals.
         public static List<(decimal, decimal)> GetRandomPointsInRadius(
             decimal x,
